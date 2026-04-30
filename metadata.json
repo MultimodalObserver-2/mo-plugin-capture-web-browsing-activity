@@ -1,0 +1,31 @@
+{
+    "id": "web_browsing_activity_recorder",
+    "name": "Web Browsing Activity Capture Recorder",
+    "description": "Captures web browsing activity (keystrokes, mouse events, searches, tab changes) via a local HTTP server that communicates with a browser extension.",
+    "version": "0.1.0",
+    "publisher": {
+        "id": "interaction-lab",
+        "name": "InTeractiOn Lab",
+        "url": "https://interaction-lab.info"
+    },
+    "repository": "https://https://github.com/MultimodalObserver-2/mo-plugin-playback-processes",
+    "author": {
+        "name": "Camila Carabajal",
+        "email": "camila.carabajal@usach.cl"
+    },
+    "icon": {
+        "dark": "icons/dark.svg",
+        "light": "icons/light.svg"
+    },
+    "locales": "locales",
+    "platform": {
+        "linux": true,
+        "windows": true,
+        "mac": true
+    },
+    "entryPoints": {
+        "mo.plugin": "src.web_browsing_activity_recorder.main:WebBrowsingActivityCapturePlugin",
+        "mo.plugin.properties": "src.web_browsing_activity_recorder.properties:properties"
+    },
+    "target": "api"
+}

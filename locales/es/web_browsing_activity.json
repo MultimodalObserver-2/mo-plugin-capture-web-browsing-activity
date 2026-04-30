@@ -1,0 +1,22 @@
+{
+  "plugin": {
+    "name": "Captura de Actividad Web",
+    "description": "Captura actividad de navegación web mediante extensión de navegador"
+  },
+  "property": {
+    "server_host": "Host del Servidor",
+    "server_host_description": "Dirección IP donde se enlaza el servidor HTTP (ej. localhost o 0.0.0.0)",
+    "server_port": "Puerto del Servidor",
+    "server_port_description": "Puerto al que se conecta la extensión del navegador",
+    "export_to_csv": "Exportar a CSV",
+    "export_to_csv_description": "También guardar los datos capturados como archivos CSV",
+    "stream_to_clients": "Transmitir a Clientes",
+    "stream_to_clients_description": "Reenviar eventos capturados en tiempo real a los clientes remotos conectados a través del módulo de comunicación (multicast UDP)"
+  },
+  "server": {
+    "started": "Servidor HTTP iniciado en {{host}}:{{port}}",
+    "stopped": "Servidor HTTP detenido",
+    "port_unavailable": "El puerto {{port}} no está disponible. Cambie el puerto del servidor.",
+    "unknown_host": "Host desconocido: {{host}}. Verifique la configuración del host."
+  }
+}

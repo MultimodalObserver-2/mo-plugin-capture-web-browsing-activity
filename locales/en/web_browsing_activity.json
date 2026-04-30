@@ -1,0 +1,22 @@
+{
+  "plugin": {
+    "name": "Web Browsing Activity Capture",
+    "description": "Captures web browsing activity via browser extension"
+  },
+  "property": {
+    "server_host": "Server Host",
+    "server_host_description": "IP address to bind the HTTP server (e.g. localhost or 0.0.0.0)",
+    "server_port": "Server Port",
+    "server_port_description": "Port for the browser extension to connect to",
+    "export_to_csv": "Export to CSV",
+    "export_to_csv_description": "Also save captured data as CSV files",
+    "stream_to_clients": "Stream to Clients",
+    "stream_to_clients_description": "Forward captured events in real time to connected remote clients via the communication module (UDP multicast)"
+  },
+  "server": {
+    "started": "HTTP server started on {{host}}:{{port}}",
+    "stopped": "HTTP server stopped",
+    "port_unavailable": "Port {{port}} is not available. Please change the server port.",
+    "unknown_host": "Unknown host: {{host}}. Please check the server host setting."
+  }
+}
