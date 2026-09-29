@@ -1,5 +1,5 @@
 {
-    "id": "web_browsing_activity_recorder",
+    "id": "web-browsing-activity-recorder",
     "name": "Web Browsing Activity Capture Recorder",
     "description": "Captures web browsing activity (keystrokes, mouse events, searches, tab changes) via a local HTTP server that communicates with a browser extension.",
     "version": "0.1.0",
